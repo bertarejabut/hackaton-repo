@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Fri Jul 14 23:39:27 EEST 2023","Fri Jul 14 23:39:41 EEST 2023","14061","","My Login application","","","","should login with valid credentials",""

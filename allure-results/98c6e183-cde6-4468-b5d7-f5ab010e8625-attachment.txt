@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#gsc-i-id1\"}\n  (Session info: chrome=114.0.5735.199)",
+  "stacktrace": "Backtrace:\n\tGetHandleVerifier [0x00F7A813+48355]\n\t(No symbol) [0x00F0C4B1]\n\t(No symbol) [0x00E15358]\n\t(No symbol) [0x00E409A5]\n\t(No symbol) [0x00E40B3B]\n\t(No symbol) [0x00E6E232]\n\t(No symbol) [0x00E5A784]\n\t(No symbol) [0x00E6C922]\n\t(No symbol) [0x00E5A536]\n\t(No symbol) [0x00E382DC]\n\t(No symbol) [0x00E393DD]\n\tGetHandleVerifier [0x011DAABD+2539405]\n\tGetHandleVerifier [0x0121A78F+2800735]\n\tGetHandleVerifier [0x0121456C+2775612]\n\tGetHandleVerifier [0x010051E0+616112]\n\t(No symbol) [0x00F15F8C]\n\t(No symbol) [0x00F12328]\n\t(No symbol) [0x00F1240B]\n\t(No symbol) [0x00F04FF7]\n\tBaseThreadInitThunk [0x76E500F9+25]\n\tRtlGetAppContainerNamedObjectPath [0x77B07BBE+286]\n\tRtlGetAppContainerNamedObjectPath [0x77B07B8E+238]\n"
+}
