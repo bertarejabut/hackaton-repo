@@ -1,11 +1,9 @@
 /**
  * test with page objects
  */
-import LoginPage from '../PageObjects/LoginPage.ts'
-import SecurePage from '../PageObjects/SecurePage.ts'
+import LoginPage from '../pages/LoginPage.ts'
+import SecurePage from '../pages/SecurePage.ts'
 import { expect } from 'chai'
-
-
 
 describe('My Login application', () => {
     it('should login with valid credentials', async () => {

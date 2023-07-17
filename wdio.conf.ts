@@ -140,7 +140,7 @@ export const config: Options.Testrunner = {
     // see also: https://webdriver.io/docs/dot-reporter
     reporters: [['allure', {
         outputDir: 'allure-results',
-        //disableWebdriverStepsReporting: true,
+        disableWebdriverStepsReporting: true
     }]],
 
     
@@ -245,15 +245,13 @@ export const config: Options.Testrunner = {
      * @param {boolean} result.passed    true if test has passed, otherwise false
      * @param {object}  result.retries   informations to spec related retries, e.g. `{ attempts: 0, limit: 0 }`
      */
-    afterTest: function (
+    afterTest: async function (
         test,
         context,
         { error, result, duration, passed, retries }
       ) {
-        // take a screenshot anytime a test fails and throws an error
         if (error) {
-          //browser.takeScreenshot();
-          browser.saveScreenshot(`./screenshots/${Date.now()}.png`);
+          await browser.takeScreenshot();
         }
       },
 
