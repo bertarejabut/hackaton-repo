@@ -1,4 +1,0 @@
-{
-  "using": "css selector",
-  "value": "#gsc-i-id2"
-}
